@@ -36,13 +36,9 @@ int main(){
 
    cout<< " \n subtraction ="<<sub;
 
-   cout<<" \n multiplication ="<<mult; 
+   cout<<"  \\n multiplication ="<<mult; 
+system("pause");
 
-cout<<"Hello World\tto you";
-cout<<"\\Hello World";
-cout<<"Hello World\rto you";
-cout<<\"Hello World to you";
-cout<<"Hello World to you\"";
 
     return 0;
 }
