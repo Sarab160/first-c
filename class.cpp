@@ -9,7 +9,7 @@ int main(){
     number++;
     }
     for (number<10;number++;){
-       cout<<number<<endl;
+      // cout<<number<<endl;
     }
     system("pause");
    
