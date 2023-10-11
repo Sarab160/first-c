@@ -1,5 +1,15 @@
 #include<iostream>
 using namespace std;
+int shape(){
+cout<<"    *     ";
+cout<<"   ***    ";
+cout<<"  *****   ";
+cout<<"    *     ";
+cout<<"    *     ";
+cout<<"    *     ";
+cout<<"    *     ";
+cout<<"    *     ";
+}
 int sum(){
     int num;
     cin>>num;
