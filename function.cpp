@@ -1,4 +1,5 @@
 #include<iostream>
+#include<iomanip>
 using namespace std;
 int shape(){
 cout<<"    *     ";
@@ -39,5 +40,18 @@ int main(){
     // cin>>father;
     // cout<<"your data is here\n";
     //cout<<name <<" son of "<<father;
-     
+// cout<<"hello world\ttoyou";
+// cout<<"\\hello world";
+//  cout<<"hello world\rto you";    
+//  cout<<"\hello world to you";
+// cout<<"""hello world to you \""";
+float a,b,c;
+a=5;
+b=3;
+c=a/b;
+cout<<setprecision(1)<<c<<endl;
+cout<<setprecision(2)<<c<<endl;
+cout<<setprecision(3)<<c<<endl;
+cout<<setprecision(4)<<c<<endl;
+cout<<setprecision(5)<<c<<endl; 
 }
