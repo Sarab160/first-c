@@ -60,9 +60,32 @@ int question4(){
    return 0;
 }
 int question5(){
- 
+
+ {
+  int num1,num2;
+  cin>>num1;
+  cin>>num2;
+  int result = num1+num2;
+  cout<<result;
+  {
+   int num3,num4;
+   cout<<"enter number for multiplication"<<endl;
+   cin>>num3;
+   cin>>num4;
+   int result2 = num3*num4;
+cout<<result2;
+  }
+  int num5,num6;
+  cout<<"enter numbers for subtraction"<<endl;
+  cin>>num5;
+  cin>>num6;
+  int result3 = num5-num6;
+  cout<<result3;
+
+   
 }
 
+}
 int main(){
     //sumOfeven();//the sum of first 100 even number
    // factorial();

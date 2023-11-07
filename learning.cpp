@@ -69,29 +69,46 @@ int main(){
     // //     cout << "Factorial of " << number << " is: " << factorial << endl;
     // }
     
-    int numTerms;
-    cout << "Enter the number of terms for the Fibonacci sequence: ";
-    cin >> numTerms;
+//     int numTerms;
+//     cout << "Enter the number of terms for the Fibonacci sequence: ";
+//     cin >> numTerms;
 
-    int firstTerm = 0, secondTerm = 1, nextTerm;
-    int count = 2; // Already displaying first two terms (0 and 1)
-cout << "Fibonacci Sequence: " << firstTerm << " " << secondTerm << " ";
+//     int firstTerm = 0, secondTerm = 1, nextTerm;
+//     int count = 2; // Already displaying first two terms (0 and 1)
+// cout << "Fibonacci Sequence: " << firstTerm << " " << secondTerm << " ";
    
-    while (count < numTerms) {
-        nextTerm = firstTerm + secondTerm;
-        cout << nextTerm << " ";
-        firstTerm = secondTerm;
-        secondTerm = nextTerm;
-        count++;
-    }
+//     while (count < numTerms) {
+//         nextTerm = firstTerm + secondTerm;
+//         cout << nextTerm << " ";
+//         firstTerm = secondTerm;
+//         secondTerm = nextTerm;
+//         count++;
+//     }
  
 
-    cout << endl;
-   return 0;
+//     cout << endl;
+//    return 0;
+// if(06){
+//     cout<<"hello world";
+// }
+// else{
+//     cout<<"not the that";
+//}
+// 
+int number[3] = {1,2,3};
+cout<<number[0]<<endl;
+number[0]=5;
+cout<<number[0]<<endl;
+int numbers[] = {1,23,45,67,8};
+cout<<sizeof(numbers)<<endl;
+cout<<numbers[2]<<endl;
+int myNumbers[5] = {10, 20, 30, 40, 50};
+for (int i : myNumbers) {
+  cout << i << endl;
 }
 
 
-
+}
 
 
 
