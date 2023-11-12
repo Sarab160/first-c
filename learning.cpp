@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main(){
    
@@ -95,18 +95,24 @@ int main(){
 //     cout<<"not the that";
 //}
 // 
-int number[3] = {1,2,3};
-cout<<number[0]<<endl;
-number[0]=5;
-cout<<number[0]<<endl;
-int numbers[] = {1,23,45,67,8};
-cout<<sizeof(numbers)<<endl;
-cout<<numbers[2]<<endl;
-int myNumbers[5] = {10, 20, 30, 40, 50};
-for (int i : myNumbers) {
-  cout << i << endl;
-}
-
+// int number[3] = {1,2,3};
+// cout<<number[0]<<endl;
+// number[0]=5;
+// cout<<number[0]<<endl;
+// int numbers[] = {1,23,45,67,8};
+// cout<<sizeof(numbers)<<endl;
+// cout<<numbers[2]<<endl;
+// int myNumbers[5] = {10, 20, 30, 40, 50};
+// for (int i : myNumbers) {
+//   cout << i << endl;
+// }
+// int number;
+// cout<<"enter the number"<<endl;
+// std::cin>>number;
+// cout << number;
+int number;
+cout<<"enter the number"<<endl;
+cin>>number;
 
 }
 
