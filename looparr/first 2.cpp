@@ -44,9 +44,64 @@ int evennumber(){
 	//cout<<"odd number are"<<odd<<endl;
 	return 0;
 }
+int array2d(){
+	int n,m;
+	cout<<"enter the values"<<endl;
+	cin>>n>>m;
+	int arr[n][m];
+	for(int i=0;i<n;i++){
+		for(int l=0;l<m;l++){
+			cin>>arr[i][l];
+		}
+	}
+	cout<<"matrix is"<<endl;
+	for(int i=0;i<n;i++){
+		for(int l=0;l<m;l++){
+			cout<<arr[i][l]<<" ";
+		}
+	cout<<endl;
+}
+return 0;
+}
+int signed2d(){
+	int n,m;
+	cout<<"enter values"<<endl;
+	cin>>n>>m;
+	int a[n][m];
+	for(int i=0;i<n;i++){
+		for(int l=0;l<m;l++){
+			cin>>a[i][l];
+		}
+	}
+	int row_start=0,row_end=n-1,coloumn_start=0,coloumn_end=m-1;
+	while(row_start<=row_start&&coloumn_start<=coloumn_end){
+		//for row start
+		for(int c=coloumn_start;c<=coloumn_end;c++){
+			cout<<a[row_start][c]<<" ";
+		}
+		row_start++;
+		
+		for(int r=row_start;r<=row_end;r++){
+			cout<<a[coloumn_start][r]<<" ";
+		}
+		coloumn_end--;
+		//for row end
+		for(int col=coloumn_end;col>=coloumn_start;col--){
+			cout<<a[row_end][col]<<" ";
+		}
+		row_end--;
+		// coloumn start
+		for(int row=row_end;row>=row_start;row--){
+			cout<<a[row][coloumn_start]<<" ";
+		}
+		coloumn_start++;
+	}
+}
 int main(){
 	//array();
 	//array2();
-	evennumber();
+//	evennumber();
+   //array2d();
+   signed2d();
 }
 
