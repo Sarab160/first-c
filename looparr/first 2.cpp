@@ -34,7 +34,7 @@ int evennumber(){
 	
 	int number;
 	int odd;
-	for(int i=0;i<=9;i++){
+	for(int i=0;i<10;i++){
 		if(arraynumber[i]%2==0){
 			number++;
 		}
@@ -100,8 +100,8 @@ int signed2d(){
 int main(){
 	//array();
 	//array2();
-//	evennumber();
+//evennumber();
    //array2d();
-   signed2d();
+  // signed2d();
 }
 
