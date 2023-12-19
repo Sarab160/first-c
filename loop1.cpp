@@ -90,8 +90,8 @@ int main(){
     //sumOfeven();//the sum of first 100 even number
    // factorial();
    //question3;
-   //question4();
-   question5();
+   question4();
+   //question5();
    return 0;
    
 }
