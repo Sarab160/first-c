@@ -1,1 +1,3 @@
-sarab
+age       name
+12         sarab
+23          taqi
