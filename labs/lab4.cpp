@@ -65,12 +65,12 @@ int q5(){
 //while loop. 
 }
 int main(){
-    Write a C++ program to find the sum of all even numbers from 1 to 100 using a while loop. 
+    // Write a C++ program to find the sum of all even numbers from 1 to 100 using a while loop. 
    q1();
-   Create a C++ program that calculates the factorial of a given positive integer using a while loop
+//    Create a C++ program that calculates the factorial of a given positive integer using a while loop
   q2();
-  . Implement a C++ program to reverse a given number using a while loop.
+//   . Implement a C++ program to reverse a given number using a while loop.
   q3();
-  prime number
+//   prime number
   q4();
 }
